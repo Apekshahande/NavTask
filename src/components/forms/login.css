@@ -1,0 +1,40 @@
+.card{
+   padding-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.form{
+    height: 30rem;
+    width: 20rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    border-radius: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);;
+}
+label{
+    text-transform: capitalize;
+}
+input{
+    width:17.5rem ;
+    margin-top: 0.4rem;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+   
+}
+.button{
+    width:90% ;
+    background-color: #ffd700;
+    border-radius: 0.5rem;
+    padding: 0.9rem;
+    /* color: black; */
+    text-transform: capitalize;
+    border: none;
+}
+
+
